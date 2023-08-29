@@ -82,13 +82,15 @@ function esVocal(letra) {
       return "Dato incorrecto";
    }
 
-   var vocal = letra.toLowerCase(); // Convertir la letra a minúscula para comparación
+   var vocal = letra.toLowerCase(); { // Convertir la letra a minúscula para comparación
    if (vocal === 'a' || vocal === 'e' || vocal === 'i' || vocal === 'o' || vocal === 'u') {
-      return "Es vocal";
-   } else {
+
+      return "Es vocal";  }
+    else { 
       return "Dato incorrecto";
-   }
+    }
 }
+ }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
@@ -101,4 +103,4 @@ module.exports = {
    areaDelTriangulo,
    deEuroAdolar,
    esVocal,
-};
+} ;
